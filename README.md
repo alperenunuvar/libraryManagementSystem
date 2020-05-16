@@ -6,7 +6,7 @@ To run this project;
   - Install Composer PHP Driver
   - Include MongoDB library in the project
 
-To install MongoDB library on this project, go to the project path via the command client:
+To include MongoDB library on this project, go to the project path via the command client:
   
 ```sh
 $ cd 'project-path'
