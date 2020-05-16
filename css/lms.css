@@ -1,0 +1,362 @@
+body
+{
+	background-image: url("../pics/background.png");
+	font-family: Helvetica;
+	position: relative;
+}
+
+div.header
+{
+	z-index: 999;
+	position: fixed;
+	right: 0;
+	top: 0;
+	left: 0;
+	background: #EEEEEE;
+	width: 100%;
+	height: 100px;	
+}
+
+img.logo
+{
+	z-index: 999;
+	position: fixed;	
+	top: 0;
+	left: 90px;		
+}
+
+a.logout
+{
+	z-index: 999;
+	position: absolute;	
+	top: 30px;
+	right: 90px;
+	text-decoration: none;
+}
+
+#logout
+{
+	color: #000000;
+	cursor: pointer;
+	text-align: center;
+}
+
+#add-text
+{
+	color: #000000;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+}
+
+div.menu
+{
+	z-index: 999;
+	position: fixed;
+	padding-left: 10%;
+	left: 0;	
+	top: 100px;	
+	background: #222222;
+	width: 100%;
+	height: 45px;	
+	overflow: hidden;
+}
+
+div.menu a:link, a:visited
+{	
+  	float: left;
+  	display: block;
+  	color: #FFFFFF;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+div.menu a:hover
+{
+  	background-color: #ddd;
+  	color: #000000;
+}
+
+div.content-title
+{
+	z-index: 999;
+	position: fixed;
+	left: 10%;
+	right: 10%;	
+	top: 150px;	
+}
+
+div.content-title-bar
+{
+	z-index: 999;
+	position: fixed;
+	left: 10%;
+	right: 10%;	
+	top: 210px;		
+	background: #333333;
+	width: 80%;
+	height: 3px;
+}
+
+div.content
+{
+	position: fixed;
+	left: 10%;
+	right: 10%;	
+	top: 245px;
+	width: 70%;
+	height: 55%;
+	margin-bottom: 200px;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+div.books
+{
+	position: relative;
+	left: 5%;	
+	top: 205px;	
+	width: 90%;
+	height: 55%;		
+}
+
+#dash1
+{
+  position: relative;
+  left:0px;
+  top: -50px;
+}
+
+#dash2
+{
+  position: relative;
+  left:300px;
+  top: -194px;
+}
+
+
+#dash3
+{
+  position: relative;
+  left:600px;
+  bottom: 337px;
+}
+
+#customers
+{	
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  font-size: 12px;
+  width: 100%;
+}
+
+
+#customers td, #customers th
+{	
+  	border: 1px solid #ddd;
+  	padding: 3px 8px;
+}
+
+#customers tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+
+#customers tr:hover
+{
+	background-color: #ddd;
+}
+
+#customers th
+{
+  	padding-top: 1px;
+  	padding-bottom: 1px;
+  	text-align: center;
+  	background-color: #222222;
+  	color: white;
+}
+
+div.add-button
+{
+	position: fixed;
+	right: 190px;
+	top: 150px;
+	text-align: center;
+}
+
+
+input[type=text].add-book, select
+{
+  	width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+input[type=date].add-book, select
+{
+  	width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+input[type=datetime-local].add-book, select
+{
+  	width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+input[type=number].add-book, select
+{
+  	width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+input[type=password].add-book, select
+{
+  	width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+
+input[type=submit].add-book
+{
+  	width: 100%;
+  	background-color: #222222;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+input[type=submit]:hover.add-book
+{
+  	background-color: #45a049;
+}
+
+input[type=submit].add-user
+{  
+  	cursor: pointer;
+  	width: 30px;
+  	height: 40px;
+  	padding: 0;
+  	border: none;
+  	background: url(../pics/add.png)
+}
+
+#paging
+{
+  	width: 40px;
+  	background-color: #222222;
+  	color: white;
+  	padding: 5px;
+  	margin: 1px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+#paging:hover
+{
+  	background-color: #45a049;
+}
+
+div.add-book
+{
+	top: 250px;
+	left: 450px;
+	position: fixed;
+  	border-radius: 5px;
+  	background-color: #f2f2f2;
+  	padding: 50px;
+}
+
+div.add-book
+{
+	top: 250px;
+	left: 450px;
+	position: fixed;
+  	border-radius: 5px;
+  	background-color: #f2f2f2;
+  	padding: 50px;
+}
+
+div.footer
+{
+	position: fixed;
+	left: 0;
+	right: 0;	
+	bottom: 0;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 12px;
+	background: #222222;
+	width: 100%;
+	height: 35px;	
+}
+
+.col-lg-3 .small-box h2
+{
+  font-size: 1.6rem;
+}
+
+.small-box
+{
+  width: 250px;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.small-box > .inner
+{
+  background: #ddd;
+  padding: 10px;
+}
+
+.small-box > .small-box-footer
+{
+  background: #000000;
+  color: #FFFFFF;
+  display: block;
+  padding: 3px 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  z-index: 10;
+}
+
+#dashboard-icon
+{
+	position: absolute;
+	left: 150px;
+	bottom: 35px;
+}
